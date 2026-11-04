@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpinsDash · Saiba onde o seu chipEV está indo embora</title>
+<meta name="description" content="O SpinsDash lê o seu hand history e mostra o que importa no push/fold: resultado de cada dia, cEV por buy-in, stats por spot, reg ratio e leaks. Para Spin 3-max no PokerStars e Party Poker.">
+<meta property="og:title" content="SpinsDash · Saiba onde o seu chipEV está indo embora">
+<meta property="og:description" content="Dashboard, cEV por spot, reg ratio e Leakfinder para quem joga Spin 3-max.">
+<meta property="og:image" content="img/hero.webp">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+<a href="#topo" class="brand"><img src="img/logo.png" alt="SpinsDash" width="132" height="66"></a>
+<div class="pills"><span>PokerStars Spin &amp; Go</span><span>Party Poker SPINS Overdrive</span></div>
+</div></header>
+
+<main id="topo">
+<section class="hero"><div class="wrap hero-grid">
+<div>
+<p class="eyebrow">Para quem joga Spin 3-max</p>
+<h1>Saiba onde o seu <em>chipEV</em> está indo embora.</h1>
+<p class="lead big">O SpinsDash lê o seu hand history e mostra o que importa no push/fold: o resultado de cada dia, cEV por buy-in, stats por spot, reg ratio e os leaks contra reg e contra fish.</p>
+<dl class="kpis">
+<div><dt class="pos">+27,67</dt><dd>fichas de cEV por spin, US$ 5</dd></div>
+<div><dt>31,0%</dt><dd>reg ratio do período</dd></div>
+<div><dt>132</dt><dd>spins por hora</dd></div>
+</dl>
+<!-- <a class="btn" href="#convite">Quero testar no meu jogo</a> -->
+</div>
+<figure class="hero-shot"><button class="zoom" type="button" aria-label="Ampliar o calendário do Dashboard"><img src="img/hero.webp" alt="Dashboard do SpinsDash com o calendário do mês" width="1600" height="1175"></button></figure>
+</div>
+<div class="wrap">
+<nav class="strip" aria-label="Seções">
+<a href="#dashboard"><span class="eyebrow">Análise</span><strong>Dashboard</strong><small>dia a dia, metas e recordes</small></a>
+<a href="#resultados"><span class="eyebrow">Análise</span><strong>Resultados, Saldo e Pool</strong><small>lucro real com rakeback</small></a>
+<a href="#stats"><span class="eyebrow">Jogo</span><strong>Stats e Reg Ratio</strong><small>cEV por spot e horário</small></a>
+<a href="#filtros"><span class="eyebrow">Estudo</span><strong>Filtros e Leakfinder</strong><small>onde ajustar</small></a>
+<a href="#importar"><span class="eyebrow">Dados</span><strong>Notas e importação</strong><small>do .txt à análise</small></a>
+</nav>
+<p class="demo">Telas e números da conta de demonstração, com jogadores de nomes fictícios.</p>
+</div>
+</section>
+
+<section class="feat" id=dashboard>
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Análise · Dashboard</p><h2>O seu mês inteiro numa tela</h2><p class="lead">Cada dia do calendário mostra o lucro real, os torneios, as horas e o cEV por buy-in, pintado pela cor do resultado. Embaixo, o volume de cada dia da semana e os torneios por hora.</p></div>
+<div>
+<ul class="dots"><li>Metas livres: você escolhe o período e combina condições, como torneios, horas jogadas, lucro real, rake gerado ou cEV por torneio num buy-in</li><li>Cada condição tem a sua barra, com a marca de onde você deveria estar hoje</li><li>O dia do PokerStars vai de 01:00 a 01:00, como na sala</li><li>Navegue entre os meses e volte para hoje com um clique</li></ul>
+</div>
+</header>
+<div class="shots">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Metas com barra de progresso por condição"><img src="img/dash-metas.webp" alt="Metas com barra de progresso por condição" loading="lazy"></button></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Calendário do mês com lucro real e cEV por dia"><img src="img/dash-calendario.webp" alt="Calendário do mês com lucro real e cEV por dia" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" >
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Análise · Dashboard</p><h2>Abra um dia e veja o que aconteceu</h2><p class="lead">Clique num dia para ver o resumo: torneios, mãos, horas, lucro e cEV por buy-in, e escreva as notas da sessão ali mesmo.</p></div>
+<div>
+<ul class="dots"><li>Recordes de torneios, lucro real e horas, por dia ou por mês, comparados com hoje</li><li>Melhores horas agora: o reg ratio das próximas horas, para decidir quando abrir as mesas</li><li>Meta de rake com o quanto falta por dia</li><li>Reviews pendentes e a última importação</li></ul>
+</div>
+</header>
+<div class="shots tight">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Resumo do dia aberto com notas da sessão"><img src="img/dash-dia.webp" alt="Resumo do dia aberto com notas da sessão" loading="lazy"></button></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Recordes, melhores horas, meta de rake e reviews"><img src="img/dash-recordes.webp" alt="Recordes, melhores horas, meta de rake e reviews" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" id=resultados>
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Análise · Resultados</p><h2>O lucro de verdade, com rakeback</h2><p class="lead">Escolha o período e o buy-in, e o quadro mostra torneios, mãos, cEV, lucro real e $EV, rake, rakeback, horas jogadas e ganho por hora. O gráfico mostra as fichas acumuladas no período.</p></div>
+<div>
+<ul class="dots"><li>Filtros de período prontos (hoje, semana, mês, ano) ou de uma data a outra</li><li>cEV sempre separado por buy-in, nunca misturado</li><li>Rakeback do período: milestones no PokerStars; cashback, Diamond Club e leaderboard diária na Party</li><li>Tabela por mês, dia ou semana, para comparar períodos</li></ul>
+</div>
+</header>
+<div class="shots narrow">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Tela de resultados com gráfico de fichas acumuladas"><img src="img/resultados.webp" alt="Tela de resultados com gráfico de fichas acumuladas" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" >
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Análise · Saldo e Pool</p><h2>Quanto tem na conta e quanto acertar com a pool</h2><p class="lead">O Saldo parte do saldo conferido na sala e soma o resultado de cada dia, o rakeback que já caiu, os depósitos e os saques. Na Pool, você fecha o mês e registra os pagamentos.</p></div>
+<div>
+<ul class="dots"><li>Extrato por dia, com o rakeback que ainda vai cair</li><li>Lance o saldo conferido de tempos em tempos para corrigir a diferença</li><li>Fechamento mensal da pool, com o que falta pagar ou receber</li></ul>
+<p class="note"><strong>Na Party Poker</strong> o hand history não traz o prêmio dos Spins. O saldo de lá é estimado pelo $EV e só fica exato quando a planilha da pool chega, no fechamento do mês.</p>
+</div>
+</header>
+<div class="shots grid">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Saldo no PokerStars"><img src="img/saldo.webp" alt="Saldo no PokerStars" loading="lazy"></button><figcaption>Saldo no PokerStars</figcaption></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Pool: fechamentos e pagamentos"><img src="img/pool.webp" alt="Pool: fechamentos e pagamentos" loading="lazy"></button><figcaption>Pool: fechamentos e pagamentos</figcaption></figure>
+</div>
+</div>
+</section>
+<section class="feat" id=stats>
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Jogo · Stats</p><h2>cEV por spot, por buy-in, por tipo de mesa</h2><p class="lead">A visão geral mostra o cEV por spin contra reg, contra fish e contra todos, no 3-way e no HU, e quanto você ganha em cada composição de mesa.</p></div>
+<div>
+<ul class="dots"><li>Spins, cEV por spin, spins por hora, quanto chega ao HU e o reg ratio</li><li>Mesas por número de regs: 2 regs, 1 reg, 2 fish</li><li>Um cartão para cada spot do Spin (HU no IP e OOP, BU, SB contra BB, BB contra SB e contra o BU), com cEV por mão, por torneio e BB/100</li></ul>
+</div>
+</header>
+<div class="shots tight">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Visão geral de stats"><img src="img/stats.webp" alt="Visão geral de stats" loading="lazy"></button></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Cartões por spot"><img src="img/stats-spots.webp" alt="Cartões por spot" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" >
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Jogo · Stats por spot</p><h2>Uma HUD completa para cada spot</h2><p class="lead">Clique num spot e abra a HUD dele: as suas frequências em cada ação, por faixa de stack, contra reg e contra fish, com quantas vezes a situação aconteceu.</p></div>
+<div>
+<ul class="dots"><li>Frequências de referência GTO ao lado das suas no HU, pré e pós-flop</li><li>Clique numa stat para ver as mãos dela no replayer, com notas e odds</li><li>HUD de um reg específico: como ele joga contra você</li><li>Range EV: quanto cada mão rendeu em cada spot</li></ul>
+</div>
+</header>
+<div class="shots">
+<figure><button class="zoom" type="button" aria-label="Ampliar: HUD do spot HU INP"><img src="img/hud.webp" alt="HUD do spot HU INP" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" >
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Jogo · Reg ratio e jogadores</p><h2>Jogue nos horários com menos reg</h2><p class="lead">O reg ratio de cada dia da semana e de cada hora, montado com os seus próprios torneios. Quem é reg e quem é fish você define na aba Jogadores.</p></div>
+<div>
+<ul class="dots"><li>Lista de adversários com torneios, mãos e último torneio contra você</li><li>Marque cada um como reg ou fish com um clique; o reg ratio, as stats e o Leakfinder usam essa marcação</li><li>Filtre por número mínimo de torneios e busque pelo nick</li></ul>
+</div>
+</header>
+<div class="shots grid">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Reg ratio por dia e hora"><img src="img/regratio.webp" alt="Reg ratio por dia e hora" loading="lazy"></button><figcaption>Reg ratio por dia e hora</figcaption></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Jogadores: a marcação de reg e fish"><img src="img/jogadores.webp" alt="Jogadores: a marcação de reg e fish" loading="lazy"></button><figcaption>Jogadores: a marcação de reg e fish</figcaption></figure>
+</div>
+</div>
+</section>
+<section class="feat" id=filtros>
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Estudo · Filtros</p><h2>Os filtros do PokerTracker, prontos e com cEV</h2><p class="lead">Os filtros que você já conhece do PokerTracker 4 vêm prontos, separados por 3-max, HU e pós-flop, com quantas mãos entram, o resultado e o cEV de cada um. Um clique abre as mãos.</p></div>
+<div>
+<ul class="dots"><li>Monte os seus filtros como no PokerTracker: escolha ações e oportunidades por street</li><li>Junte condições com E ou OU e use “não” para excluir</li><li>Pré-flop: posição de quem abriu, tamanho do open, número de aumentos, se você foi o agressor, VPIP, raise first in, limp e outros</li><li>A prévia mostra na hora quantas das suas mãos entram</li></ul>
+</div>
+</header>
+<div class="shots grid">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Filtros prontos"><img src="img/filtros.webp" alt="Filtros prontos" loading="lazy"></button><figcaption>Filtros prontos</figcaption></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Criando um filtro: as condições do pré-flop"><img src="img/novo-filtro.webp" alt="Criando um filtro: as condições do pré-flop" loading="lazy"></button><figcaption>Criando um filtro: as condições do pré-flop</figcaption></figure>
+</div>
+</div>
+</section>
+<section class="feat" >
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Estudo · Leakfinder</p><h2>Os spots em que você deixa fichas na mesa</h2><p class="lead">Spot a spot, as mãos em que o shove ou o call tem EV claramente positivo e você folda, e as que têm EV negativo e você joga. Em ordem de BB a ganhar, contra fish e contra reg.</p></div>
+<div>
+<ul class="dots"><li>A grade do spot mostra o EV de cada mão em BB, por stack efetivo, e quanto você deu shove com ela</li><li>Contorno laranja = leak; clique numa mão para ver as suas</li><li>Ao lado, como o pool responde nesse spot e o range de call do vilão</li></ul>
+<p class="code">+38 BB · 3-max · SB, BTN foldou · 2–6 BB · vs fish · shove também J5o, 73o, 74o…</p>
+</div>
+</header>
+<div class="shots tight">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Plano de ajuste do Leakfinder"><img src="img/leakfinder.webp" alt="Plano de ajuste do Leakfinder" loading="lazy"></button></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Grade de EV por mão do spot"><img src="img/leak-grade.webp" alt="Grade de EV por mão do spot" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" >
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Jogo · Mãos e replayer</p><h2>Qualquer mão em dois cliques</h2><p class="lead">Busque pela sua mão, pelo flop ou pelo adversário, filtre all-ins e showdowns, e abra o replayer com a lista ao lado para ir de uma mão à outra.</p></div>
+<div>
+<ul class="dots"><li>cEV ajustado pela equity do all-in em cada mão</li><li>Calculadora de odds dentro do replayer</li><li>Marque a mão para review e escreva notas</li></ul>
+</div>
+</header>
+<div class="shots">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Replayer de mãos"><img src="img/replayer.webp" alt="Replayer de mãos" loading="lazy"></button></figure>
+</div>
+</div>
+</section>
+<section class="feat" id=importar>
+<div class="wrap">
+<header class="feat-head">
+<div><p class="eyebrow">Estudo e dados · Notas e importação</p><h2>Suas notas num lugar só, e as mãos em segundos</h2><p class="lead">A aba Notas junta as anotações das mãos de review e os cálculos salvos da calculadora de odds, das mais novas para as mais antigas. Para importar, arraste os arquivos que a sala já salva no seu computador.</p></div>
+<div>
+<ul class="dots"><li>Cada nota mostra as cartas e o board, e o botão Abrir leva direto à mão no replayer</li><li>Filtre entre mãos de review e cálculos de odds</li><li>As notas de cada sessão ficam no dia do calendário, no Dashboard</li><li>Importe .txt ou .zip do PokerStars, inclusive o histórico do mês; na Party, a exportação do PokerTracker 4</li><li>Mãos repetidas são puladas, e MTT e outros torneios ficam de fora sozinhos</li><li>Exporte as suas mãos de um período quando precisar</li></ul>
+</div>
+</header>
+<div class="shots grid">
+<figure><button class="zoom" type="button" aria-label="Ampliar: Notas"><img src="img/notas.webp" alt="Notas" loading="lazy"></button><figcaption>Notas</figcaption></figure>
+<figure><button class="zoom" type="button" aria-label="Ampliar: Importar mãos"><img src="img/importar.webp" alt="Importar mãos" loading="lazy"></button><figcaption>Importar mãos</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="tools"><div class="wrap">
+<p class="eyebrow">Tudo o que vem no painel</p>
+<h2>As ferramentas do SpinsDash</h2>
+<ul class="tool-grid"><li><span class="eyebrow">Análise</span><h3>Dashboard</h3><p>Calendário com o resultado de cada dia, metas livres, recordes, melhores horas, meta de rake e reviews pendentes.</p></li><li><span class="eyebrow">Análise</span><h3>Resultados</h3><p>Torneios, mãos, cEV, lucro real com rakeback, horas jogadas e ganho por hora, com gráfico.</p></li><li><span class="eyebrow">Análise</span><h3>Saldo e Pool</h3><p>Extrato do saldo na sala e o fechamento mensal com a pool. Na Party, saldo estimado pelo $EV.</p></li><li><span class="eyebrow">Análise · Party</span><h3>Rakeback</h3><p>Cashback semanal, Diamond Club com meta do mês e a leaderboard diária lida sozinha.</p></li><li><span class="eyebrow">Jogo</span><h3>Mãos e replayer</h3><p>Busca por cartas, flop e adversário, cEV de cada mão, review, notas e calculadora de odds.</p></li><li><span class="eyebrow">Jogo</span><h3>Stats</h3><p>Visão geral e uma HUD por spot, com referências GTO e Range EV.</p></li><li><span class="eyebrow">Jogo · PokerStars</span><h3>Reg Ratio e Jogadores</h3><p>Regs e fish marcados por você, e o reg ratio por dia e hora.</p></li><li><span class="eyebrow">Estudo</span><h3>Filtros</h3><p>Os filtros do PokerTracker 4 prontos, com cEV e resultado, e um montador para criar os seus.</p></li><li><span class="eyebrow">Estudo</span><h3>Leakfinder</h3><p>Plano de ajuste spot a spot e a grade de EV por mão, contra o pool, contra reg e contra fish.</p></li><li><span class="eyebrow">Estudo</span><h3>Notas</h3><p>As anotações das mãos de review e os cálculos de odds salvos, com atalho para a mão.</p></li><li><span class="eyebrow">Dados</span><h3>Importar mãos</h3><p>Arquivos .txt e .zip do PokerStars e a exportação do PokerTracker 4 da Party.</p></li><li><span class="eyebrow">Coach</span><h3>Painel compartilhado</h3><p>Seu coach abre o seu painel só para leitura, sem poder alterar nada.</p></li></ul>
+</div></section>
+
+<section class="start" id="convite"><div class="wrap start-grid">
+<div><p class="eyebrow">Como começar</p><h2>Do convite à primeira análise</h2>
+<p class="lead">Você só precisa do hand history que a sala já salva no seu computador.</p></div>
+<div>
+<ol class="steps"><li><span class="n">01</span><div><h3>Receba o convite</h3><p>O acesso é liberado pelo seu e-mail, e você define a sua senha.</p></div></li><li><span class="n">02</span><div><h3>Preencha o perfil</h3><p>Escolha a sala (PokerStars ou Party Poker) e cadastre os seus nicks.</p></div></li><li><span class="n">03</span><div><h3>Importe as mãos</h3><p>Arquivos .txt ou .zip do PokerStars, inclusive o histórico do mês; na Party, a exportação do PokerTracker 4.</p></div></li><li><span class="n">04</span><div><h3>Analise e estude</h3><p>Os números aparecem por buy-in, e o Leakfinder já aponta os primeiros ajustes.</p></div></li></ol>
+<div class="cta"><h3>Quer testar no seu jogo?</h3><p>Fale com quem te enviou esta página para receber o convite.</p>
+<!-- Para um botão de contato, descomente e troque o link:
+<a class="btn" href="https://wa.me/55SEUNUMERO">Pedir convite</a> -->
+</div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><img src="img/logo.png" alt="SpinsDash" width="88" height="44"><p>Telas e números da conta de demonstração, com jogadores de nomes fictícios.</p></div></footer>
+
+<dialog id="lb" aria-label="Imagem ampliada"><form method="dialog"><button class="close" aria-label="Fechar">Fechar</button></form><img alt=""></dialog>
+<script>
+const lb=document.getElementById('lb'),lbi=lb.querySelector('img');
+document.querySelectorAll('.zoom').forEach(b=>b.addEventListener('click',()=>{const i=b.querySelector('img');lbi.src=i.src;lbi.alt=i.alt;lb.showModal();}));
+lb.addEventListener('click',e=>{if(e.target===lb)lb.close();});
+</script>
+</body>
+</html>
